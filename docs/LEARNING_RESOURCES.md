@@ -10,15 +10,15 @@
 
 ### For Beginners
 
-1. **GitHub Guides**
-   - [Hello World](https://guides.github.com/activities/hello-world/) - Basic GitHub tutorial
-   - [Understanding the GitHub Flow](https://guides.github.com/introduction/flow/)
+1. **GitHub Skills**
+   - [GitHub Skills](https://skills.github.com/) - Interactive hands-on courses
+   - [Understanding the GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow)
    - [Git Handbook](https://guides.github.com/introduction/git-handbook/)
 
 2. **Interactive Learning**
    - [Learn Git Branching](https://learngitbranching.js.org/) - Visual and interactive
-   - [GitHub Learning Lab](https://lab.github.com/) - Hands-on courses
-   - [Try Git](https://try.github.io/) - Interactive Git tutorial
+   - [GitHub Skills Courses](https://skills.github.com/) - Hands-on learning paths
+   - [Git Exercises](https://gitexercises.fracz.com/) - Practice Git commands
 
 ### Core Concepts
 

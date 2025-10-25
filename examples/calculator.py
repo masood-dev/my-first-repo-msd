@@ -24,7 +24,7 @@ def add(a, b):
         
     Example:
         >>> add(2, 3)
-        5
+        5.0
     """
     return a + b
 
