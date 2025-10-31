@@ -1,4 +1,4 @@
-# my-first-repo
+# my-first-repo-msd
 
 Welcome to my first GitHub repository! 🎉
 
