@@ -4,7 +4,7 @@ num = 3000
 fraction = 1/3
 
 print(f'{num*fraction} is {fraction*100}% of {num}')
-"""
+---------
 def greet(name):
     return(f"Hello {name}, welcome.")
 
@@ -15,3 +15,14 @@ print(user_name)
 y = input("enter name nat: ")
 nat = greet(y)
 print(nat)
+"""
+
+secret = 9
+guess = int(input("guess the numb: "))
+
+if secret > guess :
+    print("your guess is too low ")
+elif secret < guess :
+    print("your guess is too high")
+elif secret == guess :
+    print("you got it.")
