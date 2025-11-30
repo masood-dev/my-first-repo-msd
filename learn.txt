@@ -1,0 +1,5 @@
+this whole folder is for learning python and GitHub
+create learning modules for each lesson (functions, loops etc) using AI
+and paste them in new python file for practice. 
+this helps to learn by looking and understanding the problem without
+any introduction. this is only for practice. PRACTICE BY DOING ON OWN.
