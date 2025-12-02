@@ -74,8 +74,8 @@ average_budget = total_budget / 100
 print(f'Total budget is ${average_budget:,.2f}')
 '''
 
-x = 10
-y = 20
+x = 1
+y = 6
 
 while (x < y):
     print("you're right")
