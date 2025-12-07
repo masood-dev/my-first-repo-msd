@@ -74,9 +74,69 @@ average_budget = total_budget / 100
 print(f'Total budget is ${average_budget:,.2f}')
 '''
 
-x = 1
-y = 6
+# ==================== FOR LOOP EXAMPLES - 6 LEVELS ====================
 
-while (x < y):
-    print("you're right")
-    x += 1
+# LEVEL 1: BEGINNER - Simple iteration over a range
+
+# Print numbers from 1 to 5
+'''
+for i in range(1, 6):
+    print(i)
+'''
+
+# LEVEL 2: AFTER BASICS - Iterating over collections with simple operations
+
+# Calculate sum of list elements
+'''
+numbers = [10, 20, 30, 40, 50]
+total = 0
+for num in numbers:
+    print("num", num)
+    total += num
+print(f"Total: {total}")
+'''
+# Iterate over string characters
+'''
+word = "Python"
+for char in word:
+   print(f"Letter: {char}")
+
+
+# LEVEL 3: INTERMEDIATE - Nested loops and enumerate
+
+# Multiplication table
+for i in range(1, 6):
+    for j in range(1, 6):
+        print(f"{i} x {j} = {i*j}", end="\t")
+    print()
+'''
+# Using enumerate for index and value
+'''
+fruits = ["apple", "banana", "cherry", "date"]
+for egg, fruit in enumerate(fruits, start=1):
+    print(f"{egg}. {fruit.capitalize()}")
+'''
+
+# LEVEL 4: SENIOR INTERMEDIATE - List comprehensions and zip
+
+'''
+# List comprehension with condition
+numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+squares_of_evens = [x**2 for x in numbers if x % 2 == 0]
+print(f"Squares of even numbers: {squares_of_evens}")
+
+
+# Zip multiple lists together
+names = ["Alice", "Bob", "Charlie"]
+ages = [25, 30, 35]
+cities = ["New York", "London", "Paris"]
+for name, age, city in zip(names, ages, cities):
+    print(f"{name} is {age} years old and lives in {city}")
+'''
+
+# Dictionary iteration with items()
+student_scores = ["Alice": 85, "Bob": 92, "Charlie": 78, "Diana": 95]
+for student, score in student_scores.items():
+    grade = "A" if score >= 90 else "B" if score >= 80 else "C"
+    print(f"{student}: {score} ({grade})")
+     
