@@ -1,4 +1,18 @@
 # f-strings are used instead of normal casting, staring with 'f'. the expressions can be evalute using curly brackets.
+#functions
+"""
+def greet_user():
+    user = str(input("enter name: "))
+    print("hello", user)
+    return(0)
+
+masood = 0
+for masood in range(1, 11):
+    print(masood)
+greet_user()
+print('agian')
+greet_user()
+"""
 """
 num = 3000
 fraction = 1/3
@@ -119,24 +133,50 @@ for egg, fruit in enumerate(fruits, start=1):
 
 # LEVEL 4: SENIOR INTERMEDIATE - List comprehensions and zip
 
-'''
+
 # List comprehension with condition
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 squares_of_evens = [x**2 for x in numbers if x % 2 == 0]
 print(f"Squares of even numbers: {squares_of_evens}")
 
 
-# Zip multiple lists together
+#Zip multiple lists together
 names = ["Alice", "Bob", "Charlie"]
 ages = [25, 30, 35]
 cities = ["New York", "London", "Paris"]
 for name, age, city in zip(names, ages, cities):
     print(f"{name} is {age} years old and lives in {city}")
-'''
+
 
 # Dictionary iteration with items()
-student_scores = ["Alice": 85, "Bob": 92, "Charlie": 78, "Diana": 95]
+student_scores = {"Alice": 85, "Bob": 92, "Charlie": 78, "Diana": 95}
 for student, score in student_scores.items():
     grade = "A" if score >= 90 else "B" if score >= 80 else "C"
     print(f"{student}: {score} ({grade})")
      
+
+#this line is for learning purpose, if not needed mark as comment
+print(f"FLAMES: {flames_list} -> Removed '{removed_char}' at index {index_to_remove}. Remaining: {flames_list}")
+
+
+#need to learn this.
+print(f"Name 1 remaining characters: {''.join(list1)}")
+print(f"Name 2 remaining characters: {''.join(list2)}")
+
+
+#need to learn this too.
+final_result_char = flames_list[0]
+flames_meaning = {
+   'F': 'Friendship',
+   'L': 'Love',
+   'A': 'Attraction/Affection',
+   'M': 'Marriage',
+   'E': 'Enemy',
+   'S': 'Sibling'
+}
+
+
+# need to learn this line, modulu operator.
+current_position = index_to_remove % len(flames_list)
+
+
