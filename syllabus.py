@@ -41,7 +41,7 @@ print(f"First 3 fruits: {fruits[:3]}")
 print(f"Last 2 fruits: {fruits[-2:]}")
 
 # Example 2: List comprehension and methods
-print("\n=== LISTS - Example 2 ===")
+
 numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
 # List comprehension - create new list with condition
