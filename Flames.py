@@ -1,6 +1,6 @@
 # Input names
 name1 = "masood"
-name2 = "siri"
+name2 = "samantha"
 
 list1 = list(name1.lower())
 list2 = list(name2.lower())
