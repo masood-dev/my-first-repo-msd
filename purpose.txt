@@ -1,0 +1,14 @@
+this whole folder is for learning python and GitHub
+create learning modules for each lesson (functions, loops etc) using AI
+and paste them in new python file for practice. 
+this helps to learn by looking and understanding the problem without
+any introduction. this is only for practice. RAW PRACTICE IS REAL LEARNING.
+
+everything will come to make sense as time passes. don't lose hope while trying, 
+with practice they will look easy. because this code or language are made on logic
+which is interconnectted with each other. so, don't rush and don't waste time on trying to 
+make sense, trying to solve problems on your own, just go through it, learn it by others not on your own.
+Logic is based on connections and complex joins, so you can't learn, solve everything on your
+own and it may not make sense, like you can't find the route in a new city and a map can easily will 
+solve theproblem, just like that use available resources from experienced people.
+That is studying cleverly, not hard trying to find every solution on your own.

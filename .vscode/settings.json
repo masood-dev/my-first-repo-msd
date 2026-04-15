@@ -1,3 +1,36 @@
 {
-    "python.REPL.enableREPLSmartSend": false
+    "python.REPL.enableREPLSmartSend": false,
+    
+    // Exclude venv from file indexing to reduce CPU/RAM usage
+    "files.exclude": {
+        "**/.venv": true,
+        "**/venv": true,
+        "**/__pycache__": true,
+        "**/*.pyc": true
+    },
+    
+    // Exclude venv from search to improve search performance
+    "search.exclude": {
+        "**/.venv": true,
+        "**/venv": true,
+        "**/__pycache__": true
+    },
+    
+    // Stop file watcher from monitoring venv (reduces CPU usage)
+    "files.watcherExclude": {
+        "**/.venv/**": true,
+        "**/venv/**": true,
+        "**/__pycache__/**": true
+    },
+    
+    // Exclude venv from Python language server analysis (reduces RAM)
+    "python.analysis.exclude": [
+        "**/.venv/**",
+        "**/venv/**",
+        "**/__pycache__/**"
+    ],
+    
+    // Limit file size for IntelliSense to prevent slowdowns on large files
+    "python.analysis.indexing": true,
+    "files.maxMemoryForLargeFilesMB": 4096
 }
